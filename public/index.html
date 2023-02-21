@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/styles.css">  
+</head>
+<body class="bg-sky-600">
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="container mx-auto">
+    <div class="bg-topaz">
+        <div class="mx-auto max-w-full py-0 lg:px-60 sm:px-6 sm:py-10">
+            <div class="relative isolate overflow-hidden bg-sky-800 border-3 border-black pt-0 shadow-2xl sm:rounded-2xl">
+                <div id="avatar-div" class="bg-sky-600 bg-cover bg-center border-b-2 border-black">
+                    <div class="p-4">
+                        <img id="avatar" class="mx-auto rounded-full border-3 border-black hover:animate-spin cursor-none" src="assets/default.gif" alt="avatar-image" style="width: 128px;">
+                    </div>
+                </div>
+                <div class="fadein font-body mx-auto max-w-4xl px-6 pt-6 lg:py-16 ">
+                    <p class="text-3xl lg:text-4xl text-white"><span class="text-4xl lg:text-6xl">Hola!</span><br> Soy <span id="nombre"></span></p>
+                    <p class="text-white text-1xl mt-10">Tengo <span class="text-white" id="edad"></span> años, y vivo en <span class="text-white" id="ciudad"></span>.</p>
+                    <p class="text-white text-1xl pb-10">
+                        La tecnología es un pilar fundamental en mi vida. Hace 2 años inicie mis estudios de desarrollo Front-End, buscando nuevas oportunidades personales y profesionales. <br>
+                        Estoy <span class="text-white" id="interes"></span> en formar parte de un equipo en el cual pueda aportar mis conocimientos e adquirir nuevos para potenciarnos mutuamente! 
+                    </p>
+                    <p class="text-white text-2xl pb-5">
+                        Mis datos de contacto: 
+                    </p>
+                    <p class="text-white text-1xl pb-5">
+                        Celular: <a id="tel" href=""><span id="celular" class="hover:animate-pulse"></span></a>
+                        <br>
+                        Email: <a id="mailto" href=""><span id="email" class="hover:animate-pulse"></span></a>
+                    </p>
+                    <p class="text-white text-1xl lg:text-2xl pb-5 pt-5">
+                        Muchas gracias!
+                    </p>
+                </div>
+                <footer class="bg-sky-900 flex justify-between">
+                    <a href="https://www.linkedin.com/in/agustinbrocos/"><p class="py-1 px-2 text-white animate-pulse"> ©<span id="year"></span> by Agustín Brocos</p></a>
+                    <a href="https://www.linkedin.com/in/agustinbrocos/"><img class="mr-3 animate-pulse" style="margin-top: 2px;" src="assets/Linkedin.svg" width="25" alt="LinkedIn"></a>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="/public/script.js"></script>
+</body>
+</html>
